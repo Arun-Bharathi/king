@@ -1,0 +1,94 @@
+body{
+    background-color: chartreuse;
+}
+.head,h1{
+    color: rgb(218, 26, 176);
+    text-align: center;
+    text-decoration-line: overline underline;
+    text-decoration-color: black;
+}
+.head1{
+    color: crimson;
+    text-align:right;
+
+}
+.paragraph{
+    font-size: 20px;
+    color: blue;
+}
+.img{
+    height: 300px;
+    width: 400px;
+    margin-left: 100px;
+}
+
+h1{
+    text-decoration-style: wavy;
+    text-decoration-thickness: 5px;
+    font-size: 50px;
+    text-shadow: 5px 5px 5px rgb(0, 47, 255);
+}
+h2{
+    text-decoration: underline overline rgb(0, 81, 255) dashed 3px;
+}
+h3{
+    text-transform: uppercase;
+}
+p{
+    text-indent: 100px;
+    letter-spacing: 3px;
+    line-height: 2;
+    word-spacing: 10px;
+}
+label{
+    display: inline-block;
+    width: 110px;
+    margin: 7px;
+    margin-left: 30%;
+}
+
+table{ 
+    border-collapse: collapse;
+    width: 100%;
+}
+th,td{
+    border: 1px solid rgb(14, 12, 13);
+    text-align: center;
+}
+
+audio{
+    margin-left: 30%;
+}
+a{
+    font-size: 30px;
+    padding-left: 44%;
+}
+
+
+@media (min-width:700px) and (max-width:900px){
+    body{
+        background-color: rgb(241, 71, 170);
+       }
+       h3{
+        font-size: 80px;
+       }
+       p{
+        text-indent: 80px;
+        letter-spacing: 2px;
+        line-height: 1;
+        word-spacing: 6px;
+    }
+    table{ 
+        border-collapse:collapse;
+        width: 50%;
+    }
+}
+@media  (min-width:500px) and (max-width:700px) {
+    body{
+     background-color: yellow;
+    }
+    .img,video{
+        width: 100px;
+        height: 100px;
+    }
+}

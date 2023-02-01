@@ -1,0 +1,14 @@
+{
+"people":[
+     {
+        "name": "Arun",
+        "age": 24,
+        "city": "chennai"
+    },
+    {
+        "name": "Kumar",
+        "age": 24,
+        "city": "bangalore"
+    }
+]
+}

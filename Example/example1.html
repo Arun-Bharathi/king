@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        example
+    </title>
+</head>
+
+<body>
+    <h1>welcome</h1>
+    <input type="text" id="value1" /> + <input type="text" id="value2" />
+    <button onclick="onResult()">Clickme</button>
+    <br>
+    <span>Results:</span>
+    <span id="results"></span>
+
+    <h1>welcome</h1>
+    <input type="text" id="v1" /><span id="operator"></span> <input type="text" id="v2" />
+    <select id="action" onchange="onHandleInput()">
+        <option selected disabled>option</option>
+        <option>+</option>
+        <option>-</option>
+        <option>*</option>
+        <option>/</option>
+    </select>
+    <button onclick="onResults()">Clickme</button><br>
+
+    <span>Results:</span>
+    <span id="resultss"></span>
+
+    <h1>OnChange</h1>
+    <select id="fruit" onchange="onHandle()">
+        <option selected disabled>Select</option>
+        <option>Apple</option>
+        <option>Orange</option>
+        <option>Mango</option>
+        <option>Dragonfruit</option>
+    </select>
+    <p id="fruits"></p>
+
+    <h1>welcome</h1>
+    <input type="text" id="v3" /><span id="operators"></span> <input type="text" id="v4" />
+    <select id="actions" onchange="onHandleInputs()">
+        <option selected disabled>option</option>
+        <option>+</option>
+        <option>-</option>
+        <option>*</option>
+        <option>/</option>
+    </select>
+    <br>
+    <span>Results:</span>
+    <span id="result"></span>
+
+
+</body>
+<script src="./example.js"></script>
+
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FORM</title>
+    <link href="./form.css" rel="stylesheet" />
+</head>
+
+<body>
+    <form>
+        <div class="container">
+            <div class="head">
+                <span>EVENT REGISTRATION FORM</span>
+            </div>
+            <div class="content">
+                <div>
+                    <label>Name</label>
+                    <input class="txt1" type="text" placeholder="First-Name" name="Firstname" id="f1">
+
+                    <input class="txt1" type="text" placeholder="Last-Name" name="lastname" id="l1"><br>
+                    <span id="f11" style="padding-left: 80px;"></span>
+                    <span id="s22" style="padding-left: 80px;"></span>
+                </div>
+                <div>
+                    <label>Company</label>
+                    <input class="com" type="text" placeholder="Company-Name" name="company" id="c1">
+                    <br>
+                    <span id="c33" style="padding-left: 80px;"></span>
+                </div>
+                <div>
+                    <label>Email</label>
+                    <input class="com" type="text" placeholder="example@email.com" id="email" name="email"
+                        onkeydown=" validation()"><br>
+                    <span style="padding-left: 85px;" id="text"></span>
+                </div>
+                <div>
+                    <label>Phone</label>
+                    <input class="a-no" type="text" name="no" value=" +91" disabled />
+                    <input class="a-no1" type="number" placeholder="Phone-Number" name="ph" id="ph" /><br>
+                    <span style="padding-left: 160px;" id="phh"></span>
+                </div>
+                <div>
+                    <label>Subject</label>
+                    <select class="com" name="Subject" id="sub">
+                        <option selected disabled>choose option</option>
+                        <option value="Tamil">Tamil</option>
+                        <option value="English">English</option>
+                        <option value="Maths">Maths</option>
+                        <option value="science">Science</option>
+                        <option value="social">Social</option>
+                    </select><br>
+                    <!-- <span style="padding-left: 85px;" id="subb">arun</span> -->
+                </div>
+            </div>
+            <div class="select">
+                <label>Are you an existing customer</label><br><br>
+                <input type="radio" class="yes" name="select" value="YES"> Yes
+                <input type="radio" name="select" value="NO"> No
+                <br><br>
+                <input type="checkbox" id="check" onclick="onCheck()" > I Agree
+            </div>
+            <div>
+
+            </div>
+            <div class="click">
+                <button disabled id="submits" type="submit">REGISTER</button>
+            </div>
+        </div>
+    </form>
+    <script src="./form.js"></script>
+</body>
+
+</html>

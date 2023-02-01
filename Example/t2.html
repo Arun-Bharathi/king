@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="./t2.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css " rel="stylesheet" />
+
+    <title> Task2</title>
+</head>
+
+<body>
+    <!-- <h1 style="text-align: center;">Welcome</h1>
+    <div class="container">
+        <div><img src="./images/m1.jpg" alt="" /></div>
+        <div><img src="./images/m2.jpg" alt="" /></div>
+        <div><img src="./images/m3.jpg" alt="" /></div>
+        <div><img src="./images/m4.jpg" alt="" /></div>
+        <div><img src="./images/m5.jpg" alt="" /></div>
+        <div><img src="./images/m6.jpg" alt="" /></div>
+        <div><img src="./images/m7.jpg" alt="" /></div>
+        <div><img src="./images/m2.jpg" alt="" /></div>
+        <div><img src="./images/m1.jpg" alt="" /></div>
+    </div> -->
+
+    <div class="container">
+        <div class="imgs">
+            <img src="./images/m8.jpg" alt="" />
+        </div>
+        <div class="head">
+            <span><b>25 Outstanding <br>Scenic Hikes.</b></span>
+        </div>
+        <div class="content">
+            <span>if hiking for you is all about the<br>
+                breathtaking scennery,try these gorgeous<br>
+                day hikes.
+            </span>
+        </div>
+        <div class="text">
+            <h3>2 hours ago</h3>
+        </div>
+        <div class="footer">
+            <div style="padding-left: 15px;">
+                <span class="foot">#dayhikes </span>
+            </div>
+            <div style="padding-right: 50px;">
+                <button class="share">Share <i class="fa-solid fa-share"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        fetch("./ex1.json").then(function (response) {
+            return response.json();
+        }).then(function (success) {
+            console.log(success);
+        }).catch(function (error) {
+            console.log("something is wrong");
+            console.log(error);
+        });
+    </script>
+</body>
+
+</html>
